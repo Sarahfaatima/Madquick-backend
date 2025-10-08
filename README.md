@@ -106,3 +106,10 @@ curl -X POST http://localhost:8080/auth/login \
 - Passwords are hashed using bcrypt before storage
 - Authentication is handled via JWT tokens
 - Make sure to use a strong, unique JWT_SECRET in production
+
+## Deliverables
+
+### Short Note: What You Used for Crypto and Why
+I used the bcrypt library for password encryption because it provides a secure hashing algorithm that protects user passwords by adding salt. This ensures that even if the database is compromised, the original passwords cannot be easily retrieved.
+
+
